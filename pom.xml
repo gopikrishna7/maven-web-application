@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Krishna Releases Nexus Repository</name>
-	      <url>http://ec2-3-110-101-185.ap-south-1.compute.amazonaws.com:8081/repository/webapp-release/</url>
+	      <url>http://localhost:8081/repository/test-webapp-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Krishna Snapshot Nexus Repository </name>
-	      <url>http://ec2-3-110-101-185.ap-south-1.compute.amazonaws.com:8081/repository/webapp-snapshot/</url>
+	      <url>http://localhost:8081/repository/test-webapp-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
